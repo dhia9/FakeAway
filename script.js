@@ -92,10 +92,10 @@ const recipesData = [
     image: "./src/pizza/princip.png",
 
     images: [
-        "./src/pizza/image1.jpg",
-        "./src/pizza/image2.jpg",
-        "./src/pizza/image3.jpg",
-        "./src/pizza/image4.jpg",
+        "./src/pizza/Image1.jpg",
+        "./src/pizza/Image2.jpg",
+        "./src/pizza/Image3.jpg",
+        "./src/pizza/Image4.jpg",
         "./src/pizza/image5.jpeg",
         "./src/pizza/photo.jpeg"
         
@@ -358,8 +358,8 @@ const recipesData = [
         image: "./src/flan/princip.png",
 
         images: [
-             "./src/flan/image2.jpg",
-              "./src/flan/image3.jpg"
+             "./src/flan/Image2.jpg",
+              "./src/flan/Image3.jpg"
         ],
 
         time: "65 min",
