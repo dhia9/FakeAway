@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeAway </title>
+     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍔</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🍔</span>
+                <span class="logo-text">FakeAway</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#gallery" class="nav-link">Recipes</a>
+                <a href="#challenge" class="nav-link">Challenge</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">FakeAway</h1>
+            <p class="hero-subtitle">Recreate your favorite plates</p>
+            <p class="hero-description">
+                Join this <strong>7 Day Challenge</strong> and discover how to prepare  snacks and plates in a healthier way! 🎯
+            </p>
+            <button class="cta-button" onclick="document.getElementById('gallery').scrollIntoView({behavior: 'smooth'})">
+                Découvrir les recettes
+            </button>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-emoji">🍕🍟🌮</div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section">
+        <div class="info-grid">
+            <div class="info-card">
+                <span class="info-icon">🏠</span>
+                <h3>Done at home</h3>
+                <p>Cook with passion and control each ingredient</p>
+            </div>
+            <div class="info-card">
+                <span class="info-icon">❤️</span>
+                <h3>Healthier</h3>
+                <p>Less fat, less sugar, more nutrition</p>
+            </div>
+            <div class="info-card">
+                <span class="info-icon">💰</span>
+                <h3>Economical</h3>
+                <p>Reduce your fast food spending by 3 times</p>
+            </div>
+            <div class="info-card">
+                <span class="info-icon">🎉</span>
+                <h3>More Fun</h3>
+                <p>Cook with your friends and share your creations</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="section-header">
+            <h2>Recipes</h2>
+            <p>Click on a recipe to discover the details</p>
+        </div>
+
+        <div class="dishes-grid" id="dishesGrid">
+            <!-- Les cards sont générées par JavaScript -->
+        </div>
+    </section>
+
+    <!-- Challenge Section -->
+    <section id="challenge" class="challenge">
+        <div class="challenge-content">
+            <h2>Start this  7 Day Challenge ! 🚀</h2>
+            <p>
+                Start this create cooking week. Prepare a new FakeAway recipe
+                each day ad pubish your results !
+            </p>
+            <div class="challenge-rules">
+                <div class="rule">
+                    <span class="rule-number">1</span>
+                    <h4>Choose a plate</h4>
+                    <p>Select your favorite Fast Food or desert</p>
+                </div>
+                <div class="rule">
+                    <span class="rule-number">2</span>
+                    <h4>Cook at home</h4>
+                    <p>Follow our recipe or create yours</p>
+                </div>
+                <div class="rule">
+                    <span class="rule-number">3</span>
+                    <h4>Split and Compare</h4>
+                    <p>taste two versions and compare the results</p>
+                </div>
+            </div>
+            <button class="cta-button secondary">Start the Challenge</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 FakeAway - 7 Day Challenge | Recreate, cook and taste</p>
+    </footer>
+
+    <!-- Modal pour les détails de recette -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeRecipeModal()">&times;</button>
+            
+            <!-- Image principale -->
+            <div class="modal-header">
+                <img id="modalImage" src="" alt="Plat" class="modal-image">
+            </div>
+
+            <!-- Contenu -->
+            <div class="modal-body">
+                <h2 id="modalTitle"></h2>
+                <p id="modalDescription" class="modal-description"></p>
+
+                <!-- Infos rapides -->
+                <div class="quick-info">
+                    <div class="quick-info-item">
+                        <span class="quick-label">⏱️ Time</span>
+                        <span id="modalTime"></span>
+                    </div>
+                    <div class="quick-info-item">
+                        <span class="quick-label">👨‍🍳 Difficulty</span>
+                        <span id="modalDifficulty"></span>
+                    </div>
+                    <div class="quick-info-item">
+                        <span class="quick-label">👥 Portions</span>
+                        <span id="modalServings"></span>
+                    </div>
+                </div>
+
+                <!-- Galerie -->
+                <div class="modal-gallery" id="modalGallery"></div>
+
+                <!-- Ingrédients -->
+                <div class="recipe-section">
+                    <h3>📋 Ingredients</h3>
+                    <ul id="modalIngredients" class="ingredients-list"></ul>
+                </div>
+
+                <!-- Étapes -->
+                <div class="recipe-section">
+                    <h3>👨‍🍳 Preparation</h3>
+                    <ol id="modalSteps" class="steps-list"></ol>
+                </div>
+
+                <!-- Tips -->
+                <div class="recipe-section tips-section" id="tipsSection">
+                    <h3>💡 Tips </h3>
+                    <ul id="modalTips" class="tips-list"></ul>
+                </div>
+
+                <!-- Comparaison -->
+                <div class="comparison-section" id="comparisonSection">
+                    <h3>📊 Comparaison </h3>
+                    <div class="comparison-grid" id="comparisonGrid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
