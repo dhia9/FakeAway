@@ -7,77 +7,85 @@
 //             "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop"
 const recipesData = [
     {
-        id: 1,
-        name: "Smash Burger Maison",
-        description: "Le burger parfait avec du pain brioche maison, du bœuf frais et des toppings savoureux",
-        image: "./src/burger/burg6.jpeg",
-        images: [
+    id: 1,
+    name: "Classic Homemade Burger",
+    description: "A simple homemade burger inspired by iconic fast-food recipes with juicy beef, melted cheddar, fresh vegetables and caramelised onions.",
+    image: "./src/burger/burg6.jpeg",
+    
+    images: ["./src/burger/burg5.jpeg"  ,
             "./src/burger/burg3.jpeg",
             "./src/burger/burg2.jpeg",
             "./src/burger/burg4.jpeg",
             "./src/burger/burg6.jpeg",
             "./src/burger/burg7.jpeg",
-        ],
-        time: "45 min",
-        difficulty: "Facile",
-        servings: "4 burgers",
-        description_long: "Découvrez comment préparer des smash burgers incroyables à la maison ! Cette recette croustillante à l'extérieur et juteuse à l'intérieur rivalisera avec vos restaurants préférés. Le secret ? Des boulettes écrasées sur une plaque bien chaude !",
+    ],
 
-        ingredients: [
-            "500g de viande de bœuf haché (80/20)",
-            "4 petits pains brioche",
-            "200g de fromage cheddar",
-            "4 tranches de bacon",
-            "2 oignons moyens, finement tranchés",
-            "4 feuilles de laitue iceberg",
-            "4 tranches de tomate",
-            "3 cuillères à soupe de beurre",
-            "2 cuillères à soupe de mayonnaise",
-            "1 cuillère à café de moutarde",
-            "Sel et poivre frais",
-            "Un trait de sauce sriracha (optionnel)"
-        ],
+    time: "30 min",
+    difficulty: "Easy",
+    servings: "4 burgers",
 
-        steps: [
-            "Préparez vos ingrédients : hachez finement les oignons et laissez-les à température ambiante.",
-            "Divisez la viande en 8 petites portions égales (2 par burger, pour faire les deux côtés du smash).",
-            "Chauffez une grande plaque ou poêle en fonte à feu très vif durant 5 minutes.",
-            "Cuisant le bacon : faites cuire le bacon jusqu'à ce qu'il soit croustillant dans une autre poêle, puis égouttez-le.",
-            "Placez une portion de viande sur la plaque chaude sans la travailler.",
-            "En utilisant une spatule large, écrasez fortement la viande pendant 1-2 minutes pour créer une croûte caramélisée.",
-            "Salez et poivrez abondamment. Ajoutez les oignons finement tranchés sur la viande écrasée.",
-            "Retournez le burger et attendez 1 minute, puis ajoutez le fromage pour le faire fondre.",
-            "Déposez un deuxième palet de viande par-dessus et répétez le processus d'écrasement.",
-            "Faites griller les petits pains avec un peu de beurre jusqu'à ce qu'ils soient dorés.",
-            "Montez vos burgers : pain grillé, mayo, burger écrasé, fromage fondu, bacon, laitue, tomate.",
-            "Servez immédiatement pendant que tout est chaud !"
-        ],
+    description_long: "Discover how to recreate a classic fast-food style burger at home using simple ingredients and easy techniques. This homemade burger combines juicy beef patties, melted cheddar cheese, fresh vegetables and delicious caramelised onions for a comforting and satisfying meal. The recipe is highly customizable, allowing everyone to add their favourite toppings such as avocado or extra patties for a bigger burger experience.",
 
-        tips: [
-            "La clé du smash burger est une plaque très chaude - ne cédez pas là-dessus !",
-            "Utilisez de la viande froide directement du réfrigérateur pour une meilleure tenue",
-            "Ne travaillez pas la viande avant de l'écraser - cela rend les burgers durs",
-            "Les oignons caramélisés sur la plaque chaude ajoutent un goût incroyable",
-            "Vous pouvez préparer du beurre composé avec des herbes pour une version gourmet",
-            "Faites griller vos pains beurrés pour plus de texture",
-            "Le fromage doit fondre juste assez pour couler légèrement"
-        ],
+    ingredients: [
+        "4 burger buns",
+        "4 beef patties",
+        "200g cheddar cheese",
+        "4 lettuce leaves",
+        "1 tomato, sliced",
+        "1 onion, sliced",
+        "3 tablespoons mayonnaise",
+        "2 tablespoons ketchup",
+        "1 tablespoon mustard",
+        "1 teaspoon mixed spices",
+        "2 tablespoons sugar",
+        "2 tablespoons water",
+        "Salt and pepper to taste",
+        "Avocado slices (optional)",
+        "Extra beef patties for double or triple burgers (optional)"
+    ],
 
-        comparison: {
-            smashBurger: {
-                calories: "520 kcal",
-                proteines: "28g",
-                matieres_grasses: "22g",
-                cout: "~2.50€"
-            },
-            fastFood: {
-                calories: "640 kcal",
-                proteines: "32g",
-                matieres_grasses: "31g",
-                cout: "~8.99€"
-            }
+    steps: [
+        "Prepare all the ingredients by washing the lettuce and tomato, slicing the onions and cutting the cheddar cheese into slices.",
+        "Heat a frying pan over medium-high heat and cook the beef patties until they are well browned on both sides.",
+        "While the meat cooks, prepare the burger sauce by mixing mayonnaise, ketchup, mustard and spices in a small bowl.",
+        "In another pan, cook the sliced onions with water and sugar until they become soft and caramelised.",
+        "Remove the cooked beef patties from the pan and lightly toast the burger buns to give them extra flavour and texture.",
+        "Place the cheddar slices on top of the hot beef patties and allow the cheese to melt gently.",
+        "Spread the burger sauce on the bottom bun.",
+        "Add lettuce and tomato slices on top of the sauce.",
+        "Place the beef patty with melted cheddar cheese onto the vegetables.",
+        "Top with caramelised onions and any additional toppings such as avocado.",
+        "Close the burger with the top bun and serve immediately while hot."
+    ],
+
+    tips: [
+        "Toast the buns for a better texture and richer flavour.",
+        "Use freshly cooked beef patties for the juiciest burgers.",
+        "Let the cheddar melt naturally on the hot meat for the best result.",
+        "Caramelised onions add sweetness and depth to the burger.",
+        "Add avocado for a creamier and more flavorful burger.",
+        "Double or triple patties are perfect for very hungry people.",
+        "You can customize the burger with extra toppings like pickles or bacon.",
+        "Serve with fries or homemade potatoes for a complete fast-food experience."
+    ],
+
+    comparison: {
+        smashBurger: {
+            calories: "580 kcal",
+            proteins: "30g",
+            fats: "27g",
+            cost: "~3.50€"
+        },
+
+        fastFood: {
+            calories: "720 kcal",
+            proteins: "26g",
+            fats: "38g",
+            cost: "~9.50€"
         }
-    },
+    }
+}
+    ,
 // "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=500&h=500&fit=crop"
 // "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=400&h=400&fit=crop",
 //         "https://images.unsplash.com/photo-1548365328-9f547f7c1f9c?w=400&h=400&fit=crop",
@@ -157,16 +165,16 @@ const recipesData = [
     comparison: {
         smashBurger: {
             calories: "650 kcal",
-            proteines: "26g",
-            matieres_grasses: "24g",
-            cout: "~4.00€"
+            proteins: "26g",
+            fats: "24g",
+            cost: "~4.00€"
         },
 
         fastFood: {
             calories: "950 kcal",
-            proteines: "22g",
-            matieres_grasses: "38g",
-            cout: "~12.00€"
+            proteins: "22g",
+            fats: "38g",
+            cost: "~12.00€"
         }
     }
 },
@@ -240,16 +248,16 @@ const recipesData = [
     comparison: {
         smashBurger: {
             calories: "610 kcal",
-            proteines: "27g",
-            matieres_grasses: "24g",
-            cout: "~3.20€"
+            proteins: "27g",
+            fats: "24g",
+            cost: "~3.20€"
         },
 
         fastFood: {
             calories: "890 kcal",
-            proteines: "21g",
-            matieres_grasses: "42g",
-            cout: "~11.50€"
+            proteins: "21g",
+            fats: "42g",
+            cost: "~11.50€"
         }
     }
 },
@@ -331,16 +339,16 @@ const recipesData = [
     comparison: {
         smashBurger: {
             calories: "780 kcal",
-            proteines: "32g",
-            matieres_grasses: "34g",
-            cout: "~3.80€"
+            proteins: "32g",
+            fats: "34g",
+            cost: "~3.80€"
         },
 
         fastFood: {
             calories: "1250 kcal",
-            proteines: "28g",
-            matieres_grasses: "58g",
-            cout: "~12.90€"
+            proteins: "28g",
+            fats: "58g",
+            cost: "~12.90€"
         }
     }
 },
@@ -414,16 +422,16 @@ const recipesData = [
         comparison: {
             smashBurger: {
                 calories: "210 kcal",
-                proteines: "6g",
-                matieres_grasses: "5g",
-                cout: "~0.50€"
+                proteins: "6g",
+                fats: "5g",
+                cost: "~0.50€"
             },
 
             fastFood: {
                 calories: "420 kcal",
-                proteines: "3g",
-                matieres_grasses: "18g",
-                cout: "~2.50€"
+                proteins: "3g",
+                fats: "18g",
+                cost: "~2.50€"
             }
         }
     },
@@ -496,16 +504,16 @@ const recipesData = [
     comparison: {
         smashBurger: {
             calories: "210 kcal",
-            proteines: "6g",
-            matieres_grasses: "5g",
-            cout: "~0.50€"
+            proteins: "6g",
+            fats: "5g",
+            cost: "~0.50€"
         },
 
         fastFood: {
             calories: "420 kcal",
-            proteines: "3g",
-            matieres_grasses: "18g",
-            cout: "~2.50€"
+            proteins: "3g",
+            fats: "18g",
+            cost: "~2.50€"
         }
     }
 }
@@ -620,16 +628,16 @@ function openRecipeModal(recipeId) {
                 <span class="comparison-value">${comp.smashBurger.calories}</span>
             </div>
             <div class="comparison-stat">
-                <span class="comparison-label">Protéines</span>
-                <span class="comparison-value">${comp.smashBurger.proteines}</span>
+                <span class="comparison-label">Proteins</span>
+                <span class="comparison-value">${comp.smashBurger.proteins}</span>
             </div>
             <div class="comparison-stat">
-                <span class="comparison-label">Lipides</span>
-                <span class="comparison-value">${comp.smashBurger.matieres_grasses}</span>
+                <span class="comparison-label">Fats</span>
+                <span class="comparison-value">${comp.smashBurger.fats}</span>
             </div>
             <div class="comparison-stat">
-                <span class="comparison-label">Coût</span>
-                <span class="comparison-value">${comp.smashBurger.cout}</span>
+                <span class="comparison-label">Cost</span>
+                <span class="comparison-value">${comp.smashBurger.cost}</span>
             </div>
         </div>
         <div class="comparison-item">
@@ -639,16 +647,16 @@ function openRecipeModal(recipeId) {
                 <span class="comparison-value">${comp.fastFood.calories}</span>
             </div>
             <div class="comparison-stat">
-                <span class="comparison-label">Protéines</span>
-                <span class="comparison-value">${comp.fastFood.proteines}</span>
+                <span class="comparison-label">Proteins</span>
+                <span class="comparison-value">${comp.fastFood.proteins}</span>
             </div>
             <div class="comparison-stat">
-                <span class="comparison-label">Lipides</span>
-                <span class="comparison-value">${comp.fastFood.matieres_grasses}</span>
+                <span class="comparison-label">Fats</span>
+                <span class="comparison-value">${comp.fastFood.fats}</span>
             </div>
             <div class="comparison-stat">
-                <span class="comparison-label">Coût</span>
-                <span class="comparison-value">${comp.fastFood.cout}</span>
+                <span class="comparison-label">Cost</span>
+                <span class="comparison-value">${comp.fastFood.cost}</span>
             </div>
         </div>
     `;
