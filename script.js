@@ -532,6 +532,82 @@ const recipesData = [
         }
     },
     final: ["Enjoy like us. This apple flan was an attempted homemade fake-away where things didn’t go perfectly, but that was part of the experience. We cooked it together, learning how small mistakes like uneven baking and timing can change the result completely.  ."]
+},
+{
+    id: 7,
+
+    name: "Homemade Chocolate Brownie",
+
+    description: "A rich homemade chocolate brownie with a fudgy center, slightly crispy top and intense cocoa flavor, perfect for a comforting dessert or snack.",
+
+    image: "./src/brownie.jpeg",
+
+    images: [
+
+    ],
+
+    time: "35 min",
+
+    difficulty: "Easy",
+
+    servings: "6 brownies",
+
+    description_long: "This homemade chocolate brownie is a classic comfort dessert inspired by simple bakery-style recipes. It combines melted dark chocolate, butter and cocoa to create a rich, fudgy texture with a slightly crisp top layer. Easy and quick to prepare, this recipe is perfect for chocolate lovers, late-night cravings or sharing with friends. The balance between softness inside and a light crust on top makes it a satisfying homemade treat that feels both indulgent and simple.",
+
+    ingredients: [
+        "150g dark chocolate",
+        "100g butter",
+        "2 eggs",
+        "100g sugar",
+        "60g flour",
+        "20g cocoa powder",
+        "1 pinch salt",
+        "1 teaspoon vanilla extract",
+        "Optional chocolate chips",
+        "Optional walnuts"
+    ],
+
+    steps: [
+        "Preheat the oven to 180°C.",
+        "Melt the dark chocolate and butter together until smooth.",
+        "In a bowl, whisk eggs and sugar until light and slightly fluffy.",
+        "Add the melted chocolate mixture and stir well.",
+        "Sift in flour, cocoa powder and salt, then mix until combined.",
+        "Add vanilla extract and optional chocolate chips or nuts.",
+        "Pour the batter into a greased or lined baking dish.",
+        "Spread evenly to ensure uniform thickness.",
+        "Bake for 20 to 25 minutes depending on desired fudginess.",
+        "Let the brownie cool before cutting into squares."
+    ],
+
+    tips: [
+        "Do not overbake if you want a fudgy texture.",
+        "Use high-quality dark chocolate for a richer taste.",
+        "Let the brownie cool completely before slicing for clean cuts.",
+        "Add walnuts for extra crunch and flavor contrast.",
+        "Slight underbaking gives the best gooey center.",
+        "Serve with ice cream for an even more indulgent dessert."
+    ],
+
+    comparison: {
+        smashBurger: {
+            calories: "450 kcal",
+            proteins: "6g",
+            fats: "22g",
+            cost: "~0.90€"
+        },
+
+        fastFood: {
+            calories: "700 kcal",
+            proteins: "5g",
+            fats: "35g",
+            cost: "~3.50€"
+        }
+    },
+
+    final: [
+        "Enjoy like us. This homemade brownie became a simple but unforgettable fake-away dessert moment. We baked it together, melted the chocolate, and waited excitedly while the kitchen filled with a rich cocoa smell. It was all about sharing a warm, relaxed time while preparing something sweet from scratch. Once baked, we cut it into pieces and enjoyed it still slightly warm, laughing and talking together. It turned into a small but cozy group moment we really enjoyed sharing."
+    ]
 }
 ];
 
