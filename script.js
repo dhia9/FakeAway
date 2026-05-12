@@ -95,7 +95,7 @@ const recipesData = [
 
     name: "Tuna Pizza Maison",
 
-    description: "A crispy homemade tuna pizza with melted cheese, tomato base and a secret family technique for extra flavor.",
+    description: "A crispy homemade tuna pizza with melted mozzarella, emmental cheese and a secret family layering technique for maximum flavor.",
 
     image: "./src/pizza/princip.png",
 
@@ -106,16 +106,15 @@ const recipesData = [
         "./src/pizza/Image4.jpg",
         "./src/pizza/image5.jpeg",
         "./src/pizza/photo.jpeg"
-        
     ],
 
-    time: "1h 40 min",
+    time: "1h 30 min",
 
     difficulty: "Easy",
 
     servings: "2 large pizzas (4-5 people)",
 
-    description_long: "This homemade tuna pizza is a budget-friendly fake-away inspired by a family recipe. It features a soft homemade dough, a rich tomato base, melted cheese layered for extra creaminess, and well-drained tuna added at the end for maximum flavor. The secret trick is placing cheese under the sauce to create a gooey layer and prevent a soggy crust. It’s crispy, cheesy, customizable, and perfect for sharing with friends or family.",
+    description_long: "This homemade tuna pizza is the perfect budget-friendly fake-away recipe inspired by a family cooking tradition. Designed to be cheaper than takeout pizzas but even more satisfying, this recipe combines a crispy homemade dough, rich tomato sauce, melted mozzarella, creamy emmental cheese and flavorful tuna. The secret technique passed down from family is placing sliced emmental directly under the tomato sauce to create an ultra-gooey cheesy layer while preventing the crust from becoming soggy. Easy to customize and simple to prepare, this pizza is perfect for student meals, shared dinners, picnics or late-night cooking sessions with friends. Making it together also turns cooking into a fun and memorable social moment.",
 
     ingredients: [
         "7g baker’s yeast",
@@ -124,57 +123,62 @@ const recipesData = [
         "40g olive oil",
         "500ml warm water",
         "2 cans tomato concentrate",
-        "2 red onions",
-        "2 packs mozzarella",
+        "2 red onions, thinly sliced",
+        "2 packs mozzarella cheese",
         "150g emmental cheese",
-        "1 can tuna (drained)",
+        "1 can tuna in water or oil, drained",
         "Optional oregano",
         "Optional olives",
         "Optional chili flakes",
-        "Optional black pepper"
+        "Optional black pepper",
+        "Extra olive oil for crispiness"
     ],
 
     steps: [
-        "Activate yeast in warm water for 5 minutes.",
-        "Mix flour, salt, olive oil and yeast mixture.",
-        "Knead the dough until smooth and elastic.",
-        "Let it rest for 1 hour covered.",
-        "Slice onions and prepare toppings.",
-        "Drain tuna completely.",
-        "Slice mozzarella and emmental.",
-        "Preheat oven to 220°C with tray inside.",
-        "Roll dough into 2 pizza bases.",
-        "Add emmental first, then tomato sauce (secret layer).",
-        "Add onions and mozzarella.",
-        "Bake for 15-20 minutes until golden.",
-        "Add tuna near the end of baking.",
-        "Let rest before slicing."
+        "Dissolve the baker’s yeast in warm water and let it sit for 5 minutes until frothy.",
+        "In a large bowl, mix the flour, salt, olive oil and yeast mixture until a dough forms.",
+        "Knead the dough for 5 to 10 minutes until smooth and elastic.",
+        "Cover the dough with a damp towel and let it rise for around 1 hour in a warm place.",
+        "Slice the red onions thinly and optionally cook them for a few minutes in a pan to soften them.",
+        "Drain the tuna completely to avoid excess moisture on the pizza.",
+        "Slice the mozzarella and emmental cheese.",
+        "Preheat the oven to 220°C with the baking tray already inside for a crispier crust.",
+        "Divide the dough into 2 balls and roll them into pizza shapes on a floured surface.",
+        "Place the dough on parchment paper before assembling.",
+        "Add the sliced emmental directly onto the dough as the secret cheesy base layer.",
+        "Spread the tomato concentrate over the cheese layer.",
+        "Add the onions and mozzarella on top.",
+        "Drizzle a little olive oil for extra crispiness.",
+        "Transfer the pizzas onto the hot baking tray and bake for 15 to 20 minutes.",
+        "Add the tuna near the end of baking so it stays juicy and flavorful.",
+        "Let the pizzas cool for 2 minutes before slicing and serving."
     ],
 
     tips: [
-        "Preheat the baking tray for a crispy crust.",
-        "Place cheese under sauce for better melt and texture.",
-        "Drain tuna well to avoid sogginess.",
-        "Mix mozzarella and emmental for better stretch.",
-        "Sticky dough = better texture.",
-        "Add tuna at the end so it stays juicy.",
-        "Customize toppings based on what you have.",
-        "Let pizza rest before cutting."
+        "A slightly sticky dough creates a softer and better pizza texture.",
+        "Preheating the baking tray helps create an extra crispy crust.",
+        "Place emmental cheese under the tomato sauce for the famous family secret effect.",
+        "Drain the tuna really well to prevent a watery pizza.",
+        "Use both mozzarella and emmental for the perfect cheesy stretch.",
+        "You can customize the pizza with leftover vegetables or sauces from your fridge.",
+        "Add tuna at the end of cooking so it does not dry out.",
+        "A vegetable peeler is a quick and easy way to create thin cheese slices.",
+        "This pizza is perfect for sharing moments with friends or family."
     ],
 
     comparison: {
         smashBurger: {
             calories: "650 kcal",
-            proteins: "26g",
-            fats: "24g",
-            cost: "~4.00€"
+            proteines: "26g",
+            matieres_grasses: "24g",
+            cout: "~4.00€"
         },
 
         fastFood: {
             calories: "950 kcal",
-            proteins: "22g",
-            fats: "38g",
-            cost: "~12.00€"
+            proteines: "22g",
+            matieres_grasses: "38g",
+            cout: "~12.00€"
         }
     }
 },
@@ -187,20 +191,21 @@ const recipesData = [
 
     name: "Tasty Crousty Maison",
 
-    description: "A trendy homemade French street-food bowl with crispy chicken, Thai rice, creamy sauce and crunchy toppings.",
+    description: "A trendy homemade French fast-food bowl made with crispy chicken, Thai rice, creamy sauce and crunchy toppings.",
 
-    image:"./src/crousty/image.jpeg",
+    image: "./src/crousty/image.jpeg",
 
-    images: ["./src/crousty/image.jpeg"
+    images: [
+
     ],
 
-    time: "25 min",
+    time: "20 min",
 
     difficulty: "Easy",
 
     servings: "2 bowls",
 
-    description_long: "The Tasty Crousty is one of the trendiest fast-food inspired dishes in France right now. Originally popularized in Paris in 2024, it quickly became viral thanks to its comforting mix of crispy chicken, creamy sauce, fluffy rice, and crunchy toppings. This homemade version keeps the spirit of the original while being cheaper, customizable, and fun to cook. Even if nothing replaces the late-night outdoor experience with friends, making it yourself is part of the fun and reconnects you with cooking simple meals at home.",
+    description_long: "The Tasty Crousty is one of the most viral and trendy dishes in France right now. Originally created in Paris in 2024, it quickly became extremely popular thanks to social media and fast-food culture. The recipe is loved because it combines simple ingredients that everyone already enjoys: crispy chicken, fluffy Thai rice and a creamy flavorful sauce. This homemade version is quick, affordable and very easy to prepare, making it perfect for students, quick dinners or comfort food evenings. The combination of crunchy fried onions, warm rice and crispy chicken creates a comforting and satisfying bowl inspired by modern French street food.",
 
     ingredients: [
         "120g Thai rice",
@@ -212,37 +217,38 @@ const recipesData = [
         "1 teaspoon soy sauce",
         "1 pinch smoked paprika",
         "Fried onions",
-        "Fresh chives or parsley",
+        "Fresh chives",
+        "Fresh parsley",
         "Salt and pepper",
-        "Optional extra chicken pieces",
         "Optional spicy sauce",
+        "Optional extra chicken",
         "Optional sesame seeds"
     ],
 
     steps: [
-        "Rinse the Thai rice under cold water.",
+        "Rinse the Thai rice under cold water before cooking.",
         "Pour the rice and water into a saucepan.",
-        "Cook over medium heat for around 10 minutes until the water is absorbed.",
-        "Meanwhile, heat the breaded chicken in an oven, air fryer, or pan for about 8 minutes.",
-        "Turn the chicken halfway through cooking for an even crispy texture.",
-        "Prepare the sauce by mixing fresh cream, mayonnaise, sweet and sour sauce, soy sauce, and smoked paprika.",
-        "Cut the crispy chicken into bite-sized pieces.",
-        "Place the cooked rice into serving bowls.",
-        "Add a generous amount of sauce over the rice.",
-        "Top with the chicken pieces.",
-        "Finish with fried onions and freshly chopped chives or parsley.",
-        "Serve immediately while the chicken is still crispy."
+        "Cook over medium heat for around 10 minutes until the rice becomes soft and the water is absorbed.",
+        "Meanwhile, heat the breaded chicken fillets in the oven, air fryer or pan for about 8 minutes.",
+        "Turn the chicken halfway through cooking to keep it crispy on both sides.",
+        "Prepare the creamy sauce by mixing fresh cream, mayonnaise, sweet and sour sauce, soy sauce and smoked paprika.",
+        "Cut the cooked crispy chicken into small bite-sized pieces.",
+        "Place the hot rice into serving bowls.",
+        "Add a generous layer of sauce over the rice.",
+        "Top with the crispy chicken pieces.",
+        "Finish with fried onions and freshly chopped chives or parsley for extra flavour and crunch.",
+        "Serve immediately while everything is still warm and crispy."
     ],
 
     tips: [
-        "Add more chicken than rice for an even better balance.",
         "Use an air fryer for extra crispy chicken with less oil.",
-        "Fresh herbs make the dish taste fresher and less heavy.",
-        "You can replace sweet and sour sauce with spicy mayo for a stronger flavor.",
-        "Fried onions add the essential crunchy texture.",
-        "Thai rice works best because it stays fluffy and slightly sticky.",
-        "This dish is best enjoyed hot right after preparation.",
-        "You can meal-prep the sauce in advance and keep it refrigerated."
+        "Thai rice works perfectly because it stays fluffy and slightly sticky.",
+        "Fried onions are essential for the crunchy texture.",
+        "You can add spicy sauce for a stronger flavour.",
+        "Fresh herbs like chives or parsley make the bowl taste fresher.",
+        "Add extra chicken pieces if you want a more filling meal.",
+        "The sauce can be prepared in advance and stored in the fridge.",
+        "This recipe is best enjoyed immediately while the chicken is still crispy."
     ],
 
     comparison: {
@@ -357,84 +363,88 @@ const recipesData = [
 //             "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?w=400&h=400&fit=crop",
 //             "https://images.unsplash.com/photo-1621743478914-cc8a86d7e7b5?w=400&h=400&fit=crop"
     {
-        id: 5,
+    id: 5,
 
-        name: "Apple Flan",
+    name: "Apple Flan",
 
-        description: "A super cheap homemade apple flan inspired by a family recipe, simple to make and perfect as a comforting dessert or snack.",
+    description: "A super cheap homemade apple flan inspired by a family recipe, easy to prepare and perfect as a comforting dessert or filling snack.",
 
-        image: "./src/flan/princip.png",
+    image: "./src/flan/princip.png",
 
-        images: [
-             "./src/flan/Image2.jpg",
-              "./src/flan/Image3.jpg"
-        ],
+    images: [
+        "./src/flan/Image2.jpg",
+        "./src/flan/Image3.jpg",
+        "./src/flan/Image4.jpg",
+        "./src/flan/Image5.jpg"
+    ],
 
-        time: "65 min",
+    time: "65 min",
 
-        difficulty: "Super Easy",
+    difficulty: "Super Easy",
 
-        servings: "6 servings",
+    servings: "6 servings",
 
-        description_long: "This homemade apple flan is the perfect anti-junk-food recipe: cheap, comforting, natural, and incredibly easy to prepare. Inspired by a traditional family recipe, it only needs a few basic ingredients and delivers a soft, creamy texture packed with tender apple cubes. Perfect for students, busy people, or anyone who wants a satisfying homemade dessert without spending much money.",
+    description_long: "This homemade apple flan is the perfect alternative to expensive industrial snacks and vending machine desserts. Inspired by a traditional family recipe, it combines simple ingredients to create a soft, creamy and comforting dessert packed with tender apple pieces. Cheap, filling and incredibly easy to make, this flan is ideal for students, busy people or anyone looking for a homemade dessert without spending much money. It can be enjoyed warm, cold, alone or even with ice cream for a more indulgent version. The recipe also helps reduce food waste by using slightly soft apples or leftover milk. Despite its simplicity, this dessert creates comforting memories and shared moments around homemade cooking.",
 
-        ingredients: [
-            "3 eggs",
-            "3 tablespoons sugar",
-            "5 tablespoons flour",
-            "500ml milk",
-            "1 tablespoon rum (optional)",
-            "5 apples",
-            "Butter or oil for greasing the dish",
-            "Optional cinnamon",
-            "Optional lemon juice",
-            "Optional vanilla extract"
-        ],
+    ingredients: [
+        "3 eggs",
+        "3 tablespoons sugar",
+        "5 tablespoons flour",
+        "500ml milk",
+        "1 tablespoon rum (optional)",
+        "5 apples",
+        "Butter or oil for greasing the dish",
+        "Optional cinnamon",
+        "Optional lemon juice",
+        "Optional vanilla extract",
+        "Optional ice cream for serving"
+    ],
 
-        steps: [
-            "Preheat the oven to 180°C.",
-            "Peel the apples, remove the core, and cut them into 1-2 cm cubes.",
-            "Set the apple cubes aside while preparing the batter.",
-            "In a large bowl, whisk the eggs and sugar together until the mixture becomes lighter in color.",
-            "Gradually add the flour while whisking continuously to avoid lumps.",
-            "Slowly pour the milk into the bowl while mixing to create a smooth batter.",
-            "Add the rum if desired and mix again.",
-            "Grease a large flat baking dish.",
-            "Spread the apple cubes evenly across the bottom of the dish.",
-            "Pour the batter carefully over the apples.",
-            "Bake for 40 to 45 minutes until golden brown.",
-            "Check doneness using a knife inserted in the center — it should come out clean.",
-            "Let the flan cool slightly before serving.",
-            "Enjoy warm, cold, plain, or with ice cream."
-        ],
+    steps: [
+        "Preheat the oven to 180°C.",
+        "Peel the apples, remove the cores and cut them into small 1 to 2 cm cubes.",
+        "Set the apple cubes aside while preparing the batter.",
+        "In a large bowl, whisk the eggs and sugar together until the mixture becomes lighter and slightly frothy.",
+        "Gradually add the flour while whisking continuously to avoid lumps.",
+        "Slowly pour in the milk while mixing to create a smooth and liquid batter.",
+        "Add the rum if desired and mix again.",
+        "Grease a large flat baking dish to prevent sticking.",
+        "Spread the apple cubes evenly across the bottom of the dish.",
+        "Pour the batter carefully over the apples.",
+        "Bake for 40 to 45 minutes until the flan becomes golden brown and set.",
+        "Check the cooking by inserting a knife into the center — it should come out clean.",
+        "Allow the flan to cool slightly before slicing.",
+        "Serve warm or cold depending on your preference."
+    ],
 
-        tips: [
-            "Use a flat baking dish so the flan cooks evenly and faster.",
-            "Do not make the batter thicker than 2 cm.",
-            "Sift the flour for an extra smooth texture.",
-            "Slightly soft apples work perfectly and help reduce food waste.",
-            "If you do not use rum, add cinnamon or lemon juice for more flavor.",
-            "The knife test is the best way to check if the flan is fully cooked.",
-            "This dessert tastes amazing both warm and cold.",
-            "Store leftovers in the fridge for up to 3 days."
-        ],
+    tips: [
+        "Use a flat baking dish so the flan cooks evenly and faster.",
+        "Do not make the flan thicker than 2 cm or the center may stay uncooked.",
+        "Sift the flour if you want an extra smooth texture.",
+        "Slightly soft apples work perfectly and help reduce food waste.",
+        "If you do not use rum, cinnamon or lemon juice can add extra flavour.",
+        "The knife test is the easiest way to check if the flan is fully cooked.",
+        "This dessert tastes delicious both warm and cold.",
+        "Serve with ice cream for a more indulgent version.",
+        "Avoid deep dishes — the batter may collapse or cook unevenly."
+    ],
 
-        comparison: {
-            smashBurger: {
-                calories: "210 kcal",
-                proteins: "6g",
-                fats: "5g",
-                cost: "~0.50€"
-            },
+    comparison: {
+        smashBurger: {
+            calories: "210 kcal",
+            proteins: "6g",
+            fats: "5g",
+            cost: "~0.50€"
+        },
 
-            fastFood: {
-                calories: "420 kcal",
-                proteins: "3g",
-                fats: "18g",
-                cost: "~2.50€"
-            }
+        fastFood: {
+            calories: "420 kcal",
+            proteins: "3g",
+            fats: "18g",
+            cost: "~2.50€"
         }
-    },
+    }
+},
 //     "https://images.unsplash.com/photo-1568571780765-9276ac8b75a5?w=500&h=500&fit=crop"
 // "https://images.unsplash.com/photo-1568571780765-9276ac8b75a5?w=400&h=400&fit=crop",
 //         "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?w=400&h=400&fit=crop",
