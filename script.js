@@ -717,7 +717,7 @@ function openRecipeModal(recipeId) {
     comparisonGrid.innerHTML = `
     
         <div class="comparison-item">
-            <h4>🏠 Fait Maison</h4>
+            <h4>🏠 Home made</h4>
             <div class="comparison-stat">
                 <span class="comparison-label">Calories</span>
                 <span class="comparison-value">${comp.smashBurger.calories}</span>
