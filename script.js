@@ -264,13 +264,13 @@ const recipesData = [
         },
 
         fastFood: {
-            calories: "890 kcal",
+            calories: "1000 kcal",
             proteins: "21g",
             fats: "42g",
             cost: "~11.50€"
         },
-        final: ["Enjoy like us. This Tasty Crousty was one of our most trendy homemade fake-away moments. Inspired by the viral French street-food wave, we all prepared our bowls together and discovered how simple ingredients like crispy chicken, Thai rice and creamy sauce can become something really addictive. The kitchen was full of energy while we cooked, plated and mixed our own bowls with different toppings."]
-    }
+        
+    },final: ["Enjoy like us. This Tasty Crousty was one of our most trendy homemade fake-away moments. Inspired by the viral French street-food wave, we all prepared our bowls together and discovered how simple ingredients like crispy chicken, Thai rice and creamy sauce can become something really addictive. The kitchen was full of energy while we cooked, plated and mixed our own bowls with different toppings."]
 },
 // "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?w=500&h=500&fit=crop"
 // "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?w=400&h=400&fit=crop",
@@ -449,7 +449,6 @@ const recipesData = [
             cost: "~2.50€"
         }
     }
-
     ,final: ["Enjoy like us. This apple flan became one of our simplest but most comforting fake-away moments, made with cheap ingredients and lots of homemade care. We prepared it together, slicing apples and mixing the batter while talking and sharing a relaxed time in the kitchen. It showed us how something so easy can still bring real warmth and satisfaction when shared. We enjoyed it warm and cold, each of us tasting it in our own way, turning a basic dessert into a small but memorable group experience. "]},
 //     "https://images.unsplash.com/photo-1568571780765-9276ac8b75a5?w=500&h=500&fit=crop"
 // "https://images.unsplash.com/photo-1568571780765-9276ac8b75a5?w=400&h=400&fit=crop",
