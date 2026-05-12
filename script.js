@@ -16,7 +16,6 @@ const recipesData = [
             "./src/burger/burg3.jpeg",
             "./src/burger/burg2.jpeg",
             "./src/burger/burg4.jpeg",
-            "./src/burger/burg6.jpeg",
             "./src/burger/burg7.jpeg",
     ],
 
@@ -83,8 +82,11 @@ const recipesData = [
             fats: "38g",
             cost: "~9.50€"
         }
-    }
+        
+        
+    },final: ["Enjoy like us. This homemade burger became one of our favorite fake-away moments. We prepared everything together, from caramelising the onions to assembling the burgers, and the kitchen quickly turned into a fun and relaxed atmosphere. While cooking and eating, we shared stories, laughed a lot and got to know each other better. Everyone customized their own burger with different toppings, which made the experience even more personal and memorable. We even saved one burger for our beloved teacher, but sadly she refused our invitation."]
 }
+
     ,
 // "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=500&h=500&fit=crop"
 // "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?w=400&h=400&fit=crop",
@@ -169,18 +171,20 @@ const recipesData = [
     comparison: {
         smashBurger: {
             calories: "650 kcal",
-            proteines: "26g",
-            matieres_grasses: "24g",
-            cout: "~4.00€"
+            proteins: "26g",
+            fats: "24g",
+            cost: "~4.00€"
         },
 
         fastFood: {
             calories: "950 kcal",
-            proteines: "22g",
-            matieres_grasses: "38g",
-            cout: "~12.00€"
+            proteins: "22g",
+            fats: "38g",
+            cost: "~12.00€"
         }
-    }
+    },
+    final:["Enjoy like us This fake away was the first on our list, and it was a super shared moment, both in the baking and afterward while eating. We talked about our lives and took the time to get to know each other a bit because we didn’t."]
+    
 },
 // "https://images.unsplash.com/photo-1604908176997-431221e2b47f?w=500&h=500&fit=crop"
 // "https://images.unsplash.com/photo-1604908176997-431221e2b47f?w=400&h=400&fit=crop",
@@ -264,7 +268,8 @@ const recipesData = [
             proteins: "21g",
             fats: "42g",
             cost: "~11.50€"
-        }
+        },
+        final: ["Enjoy like us. This Tasty Crousty was one of our most trendy homemade fake-away moments. Inspired by the viral French street-food wave, we all prepared our bowls together and discovered how simple ingredients like crispy chicken, Thai rice and creamy sauce can become something really addictive. The kitchen was full of energy while we cooked, plated and mixed our own bowls with different toppings."]
     }
 },
 // "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?w=500&h=500&fit=crop"
@@ -356,7 +361,9 @@ const recipesData = [
             fats: "58g",
             cost: "~12.90€"
         }
-    }
+    },
+    final: ["Enjoy like us. This French tacos became one of our ultimate fake-away nights, where we all built our own versions loaded with crispy chicken, fries and creamy cheese sauce. It was messy, fun and super social, with everyone customizing their tacos and sharing a real moment together in the kitchen. In the end, it turned into a comforting group memory we won’t forget ."]
+
 },
 // "https://images.unsplash.com/photo-1568571780765-9276ac8b75a5?w=500&h=500&fit=crop"
 // "https://images.unsplash.com/photo-1568571780765-9276ac8b75a5?w=400&h=400&fit=crop",
@@ -374,8 +381,6 @@ const recipesData = [
     images: [
         "./src/flan/Image2.jpg",
         "./src/flan/Image3.jpg",
-        "./src/flan/Image4.jpg",
-        "./src/flan/Image5.jpg"
     ],
 
     time: "65 min",
@@ -444,7 +449,8 @@ const recipesData = [
             cost: "~2.50€"
         }
     }
-},
+
+    ,final: ["Enjoy like us. This apple flan became one of our simplest but most comforting fake-away moments, made with cheap ingredients and lots of homemade care. We prepared it together, slicing apples and mixing the batter while talking and sharing a relaxed time in the kitchen. It showed us how something so easy can still bring real warmth and satisfaction when shared. We enjoyed it warm and cold, each of us tasting it in our own way, turning a basic dessert into a small but memorable group experience. "]},
 //     "https://images.unsplash.com/photo-1568571780765-9276ac8b75a5?w=500&h=500&fit=crop"
 // "https://images.unsplash.com/photo-1568571780765-9276ac8b75a5?w=400&h=400&fit=crop",
 //         "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?w=400&h=400&fit=crop",
@@ -525,7 +531,8 @@ const recipesData = [
             fats: "18g",
             cost: "~2.50€"
         }
-    }
+    },
+    final: ["Enjoy like us. This apple flan was an attempted homemade fake-away where things didn’t go perfectly, but that was part of the experience. We cooked it together, learning how small mistakes like uneven baking and timing can change the result completely.  ."]
 }
 ];
 
@@ -560,6 +567,7 @@ function renderDishes() {
                     <span class="dish-tag">👨‍🍳 ${recipe.difficulty}</span>
                 </div>
             </div>
+            
         `;
 
         card.addEventListener('click', () => openRecipeModal(recipe.id));
@@ -583,6 +591,7 @@ function openRecipeModal(recipeId) {
     document.getElementById('modalTime').textContent = recipe.time;
     document.getElementById('modalDifficulty').textContent = recipe.difficulty;
     document.getElementById('modalServings').textContent = recipe.servings;
+    document.getElementById('modalDescriptionn').textContent = recipe.final;
 
     // Galerie
     const galleryContainer = document.getElementById('modalGallery');
@@ -631,6 +640,7 @@ function openRecipeModal(recipeId) {
     const comp = recipe.comparison;
 
     comparisonGrid.innerHTML = `
+    
         <div class="comparison-item">
             <h4>🏠 Fait Maison</h4>
             <div class="comparison-stat">
@@ -650,6 +660,7 @@ function openRecipeModal(recipeId) {
                 <span class="comparison-value">${comp.smashBurger.cost}</span>
             </div>
         </div>
+        
         <div class="comparison-item">
             <h4>🍟 Fast Food</h4>
             <div class="comparison-stat">
@@ -669,6 +680,7 @@ function openRecipeModal(recipeId) {
                 <span class="comparison-value">${comp.fastFood.cost}</span>
             </div>
         </div>
+        
     `;
 
     // Afficher la modal
